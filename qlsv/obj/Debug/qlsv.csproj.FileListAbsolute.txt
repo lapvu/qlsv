@@ -1,0 +1,30 @@
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\bin\Debug\qlsv.exe.config
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\bin\Debug\qlsv.exe
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\bin\Debug\qlsv.pdb
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\obj\Debug\qlsv.csprojResolveAssemblyReference.cache
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.Cache
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\obj\Debug\qlsv.exe
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\obj\Debug\qlsv.pdb
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\obj\Debug\qlsv.FormIndex.resources
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\obj\Debug\qlsv.AddStudent.resources
+C:\Users\77 thai ha\Desktop\c#\qlsv\qlsv\obj\Debug\qlsv.FormEdit.resources
+D:\qlsv\qlsv\bin\Debug\qlsv.exe.config
+D:\qlsv\qlsv\bin\Debug\qlsv.exe
+D:\qlsv\qlsv\bin\Debug\qlsv.pdb
+D:\qlsv\qlsv\bin\Debug\AdvancedDataGridView.xml
+D:\qlsv\qlsv\bin\Debug\fr\AdvancedDataGridView.resources.dll
+D:\qlsv\qlsv\bin\Debug\ru\AdvancedDataGridView.resources.dll
+D:\qlsv\qlsv\obj\Debug\qlsv.csprojResolveAssemblyReference.cache
+D:\qlsv\qlsv\obj\Debug\qlsv.AddStudent.resources
+D:\qlsv\qlsv\obj\Debug\qlsv.FormEdit.resources
+D:\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+D:\qlsv\qlsv\obj\Debug\qlsv.FormIndex.resources
+D:\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.Cache
+D:\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+D:\qlsv\qlsv\obj\Debug\qlsv.exe
+D:\qlsv\qlsv\obj\Debug\qlsv.pdb
+D:\qlsv\qlsv\bin\Debug\GemBox.Spreadsheet.xml
+D:\qlsv\qlsv\obj\Debug\qlsv.SearchResult.resources
+D:\qlsv\qlsv\obj\Debug\qlsv.FormChart.resources
