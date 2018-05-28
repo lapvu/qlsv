@@ -64,9 +64,12 @@ namespace qlsv
         }
 
         private void btnRemove_Click(object sender, EventArgs e)
-        {
-            StudentService.DeleteStudent(dataSv.CurrentCell.RowIndex);
+        {               
+            if(MessageBox.Show("Bạn có muốn xóa Sinh viên này ?", "Xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question)==DialogResult.Yes)
+            {
+                StudentService.DeleteStudent(dataSv.CurrentCell.RowIndex);
                 BindData();
+            }
         }
         //XUẤT FILE EXCEL
         private void btnExport_Click(object sender, EventArgs e)
