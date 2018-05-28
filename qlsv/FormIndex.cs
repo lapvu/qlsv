@@ -19,13 +19,13 @@ namespace qlsv
         //thêm tự động
         private void btnAutoAdd_Click(object sender, EventArgs e)
         {
-           StudentBusiness.AutoData();
+            StudentService.AutoData();
            BindData();
         }
         //khóa,mở button và textbox
         public void Control()
         {
-            if (StudentBusiness.lstStudent.Count > 0)
+            if (StudentService.lstStudent.Count > 0)
             {
                 btnRemove.Enabled = true;
                 btnExport.Enabled = true;
@@ -45,7 +45,7 @@ namespace qlsv
         {
             Control();
             this.dataSv.DataSource = null;
-            this.dataSv.DataSource = StudentBusiness.lstStudent;
+            this.dataSv.DataSource = StudentService.lstStudent;
             this.Refresh();
         }
 
@@ -65,7 +65,7 @@ namespace qlsv
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-                StudentBusiness.DeleteStudent(dataSv.CurrentCell.RowIndex);
+            StudentService.DeleteStudent(dataSv.CurrentCell.RowIndex);
                 BindData();
         }
         //XUẤT FILE EXCEL
@@ -76,7 +76,7 @@ namespace qlsv
             saveFileDialog1.RestoreDirectory = true;
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                StudentBusiness.ExportToExcel(saveFileDialog1.FileName);
+                StudentService.ExportToExcel(saveFileDialog1.FileName);
                 MessageBox.Show("Đã lưu");
             }
         }
@@ -86,8 +86,8 @@ namespace qlsv
             if(e.KeyCode == Keys.Enter)
             {
                 SearchResult sr = new SearchResult();
-                StudentBusiness.txt = boxSearch.Text;
-                if (StudentBusiness.Search(boxSearch.Text).Count ==0)
+                StudentService.txt = boxSearch.Text;
+                if (StudentService.Search(boxSearch.Text).Count ==0)
                 {
                     MessageBox.Show("Không tìm thấy sinh viên có Mã sinh viên như vậy","lỗi");
                 }
@@ -101,7 +101,7 @@ namespace qlsv
         private void dataSv_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             FormEdit edit = new FormEdit();
-            StudentBusiness.index = dataSv.CurrentCell.RowIndex;
+            StudentService.index = dataSv.CurrentCell.RowIndex;
             edit.ShowDialog();
             BindData();
         }

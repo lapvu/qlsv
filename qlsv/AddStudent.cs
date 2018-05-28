@@ -67,8 +67,8 @@ namespace qlsv
                 {
                     std.Gender = radioNu.Text;
                 }
-                std.BirthOfDate = DateTime.Parse(dateTimePicker1.Text);
-                StudentBusiness.AddNew(std);
+                std.DateOfBirth = DateTime.Parse(dateTimePicker1.Text);
+                StudentService.AddNew(std);
                 this.Close();
             }
         }

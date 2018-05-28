@@ -20,11 +20,11 @@ namespace qlsv
             get { return _Gender; }
             set { _Gender = value; }
         }
-        private DateTime _BirthOfDate;
-        public DateTime BirthOfDate
+        private DateTime _DateOfBirth;
+        public DateTime DateOfBirth
         {
-            get { return _BirthOfDate; }
-            set { _BirthOfDate = value; }
+            get { return _DateOfBirth; }
+            set { _DateOfBirth = value; }
         }
         private String _Nation;
         public String Nation

@@ -7,7 +7,7 @@ using GemBox.Spreadsheet;
 using System.IO;
 namespace qlsv
 {
-    public static class StudentBusiness
+    public static class StudentService
     {
         //new list student
         public static List<Student> lstStudent = new List<Student>();
@@ -24,7 +24,7 @@ namespace qlsv
                 std.StudentCode = ""+i;
                 std.Gender = "nam";
                 std.ClassName = "58th2";
-                std.BirthOfDate = Convert.ToDateTime("02/04/1998");
+                std.DateOfBirth = Convert.ToDateTime("02/04/1998");
                 std.Nation = "kinh";
                 lstStudent.Add(std);
             }
@@ -42,9 +42,9 @@ namespace qlsv
         public static void ExportToExcel(string Name)
         {
             StreamWriter wr = new StreamWriter(Name);
-            foreach (Student std in StudentBusiness.lstStudent)
+            foreach (Student std in lstStudent)
             {
-                wr.WriteLine(std.FullName + "," + std.StudentCode+","+std.ClassName+","+std.Gender+","+std.Nation+","+std.BirthOfDate.ToShortDateString());
+                wr.WriteLine(std.FullName + "," + std.StudentCode+","+std.ClassName+","+std.Gender+","+std.Nation+","+std.DateOfBirth.ToShortDateString());
             }
             wr.Close();
         }

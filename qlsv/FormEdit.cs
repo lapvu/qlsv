@@ -51,12 +51,12 @@ namespace qlsv
         }
         private void FormEdit_Load_1(object sender, EventArgs e)
         {
-            txtFullName_edit.Text = StudentBusiness.lstStudent[StudentBusiness.index].FullName;
-            txtStudentCode_edit.Text = StudentBusiness.lstStudent[StudentBusiness.index].StudentCode;
-            txtClassName_edit.Text = StudentBusiness.lstStudent[StudentBusiness.index].ClassName;
-            txtNation_edit.Text = StudentBusiness.lstStudent[StudentBusiness.index].Nation;
-            dateTimePicker1_edit.Value = StudentBusiness.lstStudent[StudentBusiness.index].BirthOfDate;
-            if(StudentBusiness.lstStudent[StudentBusiness.index].Gender == "nam")
+            txtFullName_edit.Text = StudentService.lstStudent[StudentService.index].FullName;
+            txtStudentCode_edit.Text = StudentService.lstStudent[StudentService.index].StudentCode;
+            txtClassName_edit.Text = StudentService.lstStudent[StudentService.index].ClassName;
+            txtNation_edit.Text = StudentService.lstStudent[StudentService.index].Nation;
+            dateTimePicker1_edit.Value = StudentService.lstStudent[StudentService.index].DateOfBirth;
+            if(StudentService.lstStudent[StudentService.index].Gender == "nam")
             {
                 radioNam_edit.Checked = true;
             }
@@ -70,17 +70,17 @@ namespace qlsv
         {
             if (Validation())
             {
-                StudentBusiness.lstStudent[StudentBusiness.index].FullName = txtFullName_edit.Text;
-                StudentBusiness.lstStudent[StudentBusiness.index].StudentCode = txtStudentCode_edit.Text;
-                StudentBusiness.lstStudent[StudentBusiness.index].ClassName = txtClassName_edit.Text;
-                StudentBusiness.lstStudent[StudentBusiness.index].Nation = txtNation_edit.Text;
-                StudentBusiness.lstStudent[StudentBusiness.index].BirthOfDate = DateTime.Parse(dateTimePicker1_edit.Text);
+                StudentService.lstStudent[StudentService.index].FullName = txtFullName_edit.Text;
+                StudentService.lstStudent[StudentService.index].StudentCode = txtStudentCode_edit.Text;
+                StudentService.lstStudent[StudentService.index].ClassName = txtClassName_edit.Text;
+                StudentService.lstStudent[StudentService.index].Nation = txtNation_edit.Text;
+                StudentService.lstStudent[StudentService.index].DateOfBirth = DateTime.Parse(dateTimePicker1_edit.Text);
                 if (radioNam_edit.Checked == true)
                 {
-                    StudentBusiness.lstStudent[StudentBusiness.index].Gender = radioNam_edit.Text;
+                    StudentService.lstStudent[StudentService.index].Gender = radioNam_edit.Text;
                 }else
                 {
-                    StudentBusiness.lstStudent[StudentBusiness.index].Gender = radioNu_edit.Text;
+                    StudentService.lstStudent[StudentService.index].Gender = radioNu_edit.Text;
                 }
                 this.Close();
             }

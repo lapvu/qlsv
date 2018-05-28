@@ -28,3 +28,23 @@ D:\qlsv\qlsv\obj\Debug\qlsv.pdb
 D:\qlsv\qlsv\bin\Debug\GemBox.Spreadsheet.xml
 D:\qlsv\qlsv\obj\Debug\qlsv.SearchResult.resources
 D:\qlsv\qlsv\obj\Debug\qlsv.FormChart.resources
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\bin\Debug\qlsv.exe.config
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\bin\Debug\qlsv.exe
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\bin\Debug\qlsv.pdb
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\bin\Debug\AdvancedDataGridView.dll
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\bin\Debug\AdvancedDataGridView.xml
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\bin\Debug\fr\AdvancedDataGridView.resources.dll
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\bin\Debug\ru\AdvancedDataGridView.resources.dll
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.csprojResolveAssemblyReference.cache
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.AddStudent.resources
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.FormChart.resources
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.FormEdit.resources
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.Properties.Resources.resources
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.FormIndex.resources
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.SearchResult.resources
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.csproj.GenerateResource.Cache
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.csproj.CoreCompileInputs.cache
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.exe
+C:\Users\77 thai ha\Desktop\qlsv\qlsv\obj\Debug\qlsv.pdb

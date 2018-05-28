@@ -19,8 +19,8 @@ namespace qlsv
 
         private void FormChart_Load(object sender, EventArgs e)
         {
-            chart1.Series["Series1"].Points.AddXY("Nam",StudentBusiness.CountSv());
-            chart1.Series["Series1"].Points.AddXY("Nữ", StudentBusiness.lstStudent.Count- StudentBusiness.CountSv());
+            chart1.Series["Series1"].Points.AddXY("Nam", StudentService.CountSv());
+            chart1.Series["Series1"].Points.AddXY("Nữ", StudentService.lstStudent.Count- StudentService.CountSv());
         }
 
         private void btnClose_Click(object sender, EventArgs e)

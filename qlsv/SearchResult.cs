@@ -19,7 +19,7 @@ namespace qlsv
 
         private void SearchResult_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = StudentBusiness.Search(StudentBusiness.txt);
+            dataGridView1.DataSource = StudentService.Search(StudentService.txt);
         }
 
         private void button1_Click(object sender, EventArgs e)
